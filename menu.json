@@ -1,0 +1,101 @@
+const menuData = {
+    "menu": {
+        "categories": [
+            {
+                "name": "Entradas",
+                "items": [
+                    {
+                        "name": "Tabla de Fiambres",
+                        "description": "Selección de jamón crudo, salame, bondiola y quesos",
+                        "price": 4200
+                    },
+                    {
+                        "name": "Provoleta Rodrigueña",
+                        "description": "Queso provolone gratinado con orégano y pimientos",
+                        "price": 3800
+                    }
+                ]
+            },
+            {
+                "name": "Carnes Premium",
+                "items": [
+                    {
+                        "name": "Bife de Chorizo Rodríguez",
+                        "description": "Corte especial de 400g con papas rústicas",
+                        "price": 8500
+                    },
+                    {
+                        "name": "Lomo al Malbec",
+                        "description": "400g de lomo con reducción de vino Malbec",
+                        "price": 9200
+                    },
+                    {
+                        "name": "Costillar de Cordero",
+                        "description": "Costillar asado lentamente por 8 horas",
+                        "price": 9800
+                    }
+                ]
+            },
+            {
+                "name": "Parrillada Completa",
+                "items": [
+                    {
+                        "name": "Parrillada Clásica",
+                        "description": "Para 2 personas: chorizo, morcilla, vacío, chinchulín y riñón",
+                        "price": 12000
+                    },
+                    {
+                        "name": "Parrillada Premium",
+                        "description": "Para 4 personas: incluye cortes premium y achuras selectas",
+                        "price": 22000
+                    }
+                ]
+            },
+            {
+                "name": "Guarniciones",
+                "items": [
+                    {
+                        "name": "Papas Rodrigueñas",
+                        "description": "Papas al horno con piel y hierbas provenzales",
+                        "price": 1800
+                    },
+                    {
+                        "name": "Ensalada Clásica",
+                        "description": "Lechuga, tomate, cebolla y aderezo de la casa",
+                        "price": 1600
+                    }
+                ]
+            },
+            {
+                "name": "Postres",
+                "items": [
+                    {
+                        "name": "Volcán de Chocolate",
+                        "description": "Clásico volcán de chocolate con helado de vainilla",
+                        "price": 2500
+                    },
+                    {
+                        "name": "Flan Casero",
+                        "description": "Flan tradicional con dulce de leche y crema",
+                        "price": 2000
+                    }
+                ]
+            },
+            {
+                "name": "Bebidas",
+                "items": [
+                    {
+                        "name": "Vinos de la Casa",
+                        "description": "Selección de tintos y blancos",
+                        "price": 3000
+                    },
+                    {
+                        "name": "Cervezas Artesanales",
+                        "description": "Selección de cervezas locales",
+                        "price": 1800
+                    }
+                ]
+            }
+        ]
+    }
+};
