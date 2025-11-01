@@ -30,7 +30,30 @@
             <h2>Nuestro Menú</h2>
             <div id="menu-container"></div>
         </section>
-    </main>
+        
+        <section id="menu-editor" style="margin-top: 3rem; padding: 2rem; border: 1px solid #ccc; border-radius: 8px;">
+            <h3>✏️ Agregar Nuevo Ítem al Menú</h3>
+            <form id="add-item-form">
+                <div style="margin-bottom: 1rem;">
+                    <label for="item-name" style="display: block; font-weight: 600;">Nombre del Plato:</label>
+                    <input type="text" id="item-name" required style="width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px;">
+                </div>
+                <div style="margin-bottom: 1rem;">
+                    <label for="item-description" style="display: block; font-weight: 600;">Descripción:</label>
+                    <input type="text" id="item-description" required style="width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px;">
+                </div>
+                <div style="margin-bottom: 1rem;">
+                    <label for="item-price" style="display: block; font-weight: 600;">Precio ($):</label>
+                    <input type="number" id="item-price" required min="1" style="width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px;">
+                </div>
+                <div style="margin-bottom: 1rem;">
+                    <label for="item-category" style="display: block; font-weight: 600;">Categoría:</label>
+                    <select id="item-category" style="width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px;"></select>
+                </div>
+                <button type="submit" class="btn" style="margin-top: 1rem;">Agregar Plato</button>
+            </form>
+        </section>
+        </main>
 
     <footer>
         <div class="container">
@@ -44,4 +67,3 @@
     <script src="js/main.js"></script>
 </body>
 </html>
-        
